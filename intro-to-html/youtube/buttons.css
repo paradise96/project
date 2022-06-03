@@ -1,0 +1,152 @@
+button {
+  cursor: pointer;
+}
+.subscribe {
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  transition: opacity 0.15s;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+.subscribe:hover {
+  opacity: 0.8;
+}
+.subscribe:active {
+  opacity: 0.5;
+}
+.join {
+  color: #065fd4;
+  background-color: white;
+  cursor: pointer;
+  padding: 9px 16px 9px 16px;
+  border: 1px solid #065fd4;
+  border-radius: 2px;
+  transition: background-color, color 0.15s;
+}
+.join:hover {
+  background-color: #065fd4;
+  color: white;
+}
+join:active {
+  opacity: 0.7;
+}
+.tweet {
+  cursor: pointer;
+  color: white;
+  background-color: #1d9bf0;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.uber {
+  margin-left: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 12px 15px 12px 15px;
+  transition: opacity 0.15s;
+}
+.uber:hover {
+  opacity: 0.8;
+}
+.uber:active {
+  opacity: 0.5;
+}
+.github {
+  cursor: pointer;
+  margin-left: 8px;
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 17px 12px 17px;
+  transition: box-shadow 0.15s;
+}
+.github:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+}
+.started {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  margin-right: 10px;
+  border: none;
+  font-weight: 500;
+  padding: 12px 20px 12px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: opacity 0.15s;
+}
+.started:hover {
+  opacity: 0.8;
+}
+.started:active {
+  opacity: 0.5;
+}
+.download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 12px 17px 12px 17px;
+  font-weight: 600;
+  transition: background-color, color 0.15s;
+}
+.download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 18px;
+  padding: 12px 24px 12px 24px;
+  transition: background-color 0.15s;
+  margin-right: 10px;
+}
+.apply:hover {
+  background-color: rgb(8, 81, 155);
+}
+.save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s, padding 0.15s;
+}
+
+.save:hover {
+  background-color: rgb(226, 240, 254);
+  border-width: 2px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
